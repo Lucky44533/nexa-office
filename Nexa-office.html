@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nexa Office</title>
+<style>
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin: 30px 0;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.app-grid {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.app-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    width: 180px;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    color: #2c3e50;
+}
+
+.app-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+}
+
+.app-card h2 {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.info-section {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    max-width: 700px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.info-section h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.info-section p, .info-section ul {
+    margin: 5px 0;
+    line-height: 1.5;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Nexa Office</h1>
+    <p>Accédez à vos applications Nexa et découvrez toutes les infos détaillées</p>
+</header>
+
+<div class="app-grid">
+    <a href="nexa-writer.html" class="app-card">
+        <img src="https://img.icons8.com/ios-filled/64/000000/document--v1.png"/>
+        <h2>Nexa Writer</h2>
+    </a>
+    <a href="nexa-calc.html" class="app-card">
+        <img src="https://img.icons8.com/ios-filled/64/000000/spreadsheet.png"/>
+        <h2>Nexa Calc</h2>
+    </a>
+    <a href="nexa-clock.html" class="app-card">
+        <img src="https://img.icons8.com/ios-filled/64/000000/clock.png"/>
+        <h2>Nexa Clock</h2>
+    </a>
+</div>
+
+<div class="info-section">
+    <h3>Nexa Office - Infos Générales</h3>
+    <p><strong>Version :</strong> 1.0</p>
+    <p><strong>Développeur :</strong> Nexa Labs</p>
+    <p><strong>Confidentialité :</strong></p>
+    <ul>
+        <li>Toutes les données restent locales sur votre appareil</li>
+        <li>Aucune information n’est envoyée à des serveurs externes</li>
+        <li>Pas de suivi utilisateur ni publicité</li>
+        <li>Possibilité de sauvegarde dans différents formats (.txt, .docx, .pdf, .xls, .csv)</li>
+        <li>Impression sécurisée sur A4 ou format personnalisé</li>
+    </ul>
+    <p><strong>Compatibilité :</strong> Tous navigateurs modernes (Chrome, Edge, Firefox, Safari)</p>
+</div>
+
+<div class="info-section">
+    <h3>Nexa Writer</h3>
+    <ul>
+        <li>Éditeur de texte avancé inspiré de LibreOffice Writer</li>
+        <li>Formats de sauvegarde : .txt, .docx, .pdf</li>
+        <li>Impression A4 ou personnalisée</li>
+        <li>Paramètres : police, taille, marges, orientation page</li>
+        <li><strong>Confidentialité :</strong> documents uniquement sur le PC, aucun transfert externe</li>
+        <li>Version : 1.0</li>
+    </ul>
+</div>
+
+<div class="info-section">
+    <h3>Nexa Calc</h3>
+    <ul>
+        <li>Tableur complet inspiré de LibreOffice Calc</li>
+        <li>Formules, graphiques et tri de données</li>
+        <li>Formats de sauvegarde : .xls, .xlsx, .csv, .pdf</li>
+        <li>Paramètres : mise en page, impressions A4, couleurs et styles de cellule</li>
+        <li><strong>Confidentialité :</strong> fichiers restent uniquement sur le PC</li>
+        <li>Version : 1.0</li>
+    </ul>
+</div>
+
+<div class="info-section">
+    <h3>Nexa Clock</h3>
+    <ul>
+        <li>Horloge et gestion du temps</li>
+        <li>Alarmes, minuteurs et chronomètres</li>
+        <li>Paramètres : fuseau horaire, thèmes, sons d’alarme</li>
+        <li><strong>Confidentialité :</strong> aucune donnée enregistrée en ligne</li>
+        <li>Version : 1.0</li>
+    </ul>
+</div>
+
+</body>
+</html>
